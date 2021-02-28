@@ -98,7 +98,7 @@ public class Zadanie2 {
         System.out.println("Tablica:"+Arrays.toString(tab));
         System.out.println("Minimalna wartosc w tablicy: "+Min(tab));
         System.out.println("Maksymalna wartosc w tablicy: "+max (tab));
-        System.out.println("Suma liczba tablicy: "+suma (tab));
+        System.out.println("Suma liczb tablicy: "+suma (tab));
         System.out.println("Srednia wartosc liczb w tablicy: "+srednia (tab));
         System.out.println("Mediana liczb w tablicy: "+mediana (tab));
     } }
