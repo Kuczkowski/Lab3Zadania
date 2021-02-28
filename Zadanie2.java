@@ -66,13 +66,11 @@ public class Zadanie2 {
     public static double srednia(int[] tab) {
         double wynik=0;
 
-        for (double W:tab)
-
-        {
-
-            wynik+=W;
+        for (double sr:tab) {
+            wynik+=sr;
         }
-        return wynik / tab.length;
+       
+       return wynik / tab.length;
     }
 
     public static double mediana(int[] tab) {
@@ -82,7 +80,7 @@ public class Zadanie2 {
 
         {
 
-            int md1 = tab[(tab.length/2)-1], md2 = tab [( tab.length / 2 )];
+            int md1 = tab[(tab.length/2)-1], md2=tab [( tab.length / 2 )];
             mediana=(md1+md2)/2;
         }
         else
